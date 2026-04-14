@@ -1,0 +1,14 @@
+‰PNG
+
+
+PENTEST_POC_UNRESTRICTED_UPLOAD
+================================================
+VULNERABILITY : Unrestricted File Upload
+BYPASS METHOD : Partial magic byte validation
+FILE TYPE     : Disguised as PNG, contains arbitrary data
+IMPACT        : Attacker can upload any file content
+                bypassing file type restrictions
+TESTER        : Penetration Test
+================================================
+Target,Alias,Tenant,CONTROL,SourceFile,Count
+PENTEST_POC,PENTEST_POC,PENTEST_POC,PENTEST_POC,PENTEST_POC,1
